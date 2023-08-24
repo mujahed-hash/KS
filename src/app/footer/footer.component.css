@@ -1,0 +1,235 @@
+.footer{
+    height: 100%;
+    position: relative;
+    background: linear-gradient(81deg, rgba(22,35,68,1) 49%, rgba(102,0,255,1) 100%);
+}
+.li li{
+    display: block;
+}
+.li img{
+    width:20rem;
+    border-radius: 5px;
+}
+.li{
+    margin-left: 2rem;
+    padding: 12px 20px;
+    text-align: center;
+    background:rgba(22,35,68,0.6);
+    border: #243A73 2px solid;
+
+}
+.li2{
+    position: relative;
+}
+.ico{
+    position: relative;
+    top:0.4rem;
+    padding-right: 0.3rem;
+    color: white;
+ }
+ .link{
+     margin-top: 2rem;
+     text-align: left;
+     position: relative;
+     top:0.5rem;
+ }
+.footer h4{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.footerLinks li{
+    display: inline-block;
+    margin: 1rem 1.4rem 1.4rem 1.4rem;
+    font-size:larger;
+
+}
+.footerLinks{
+    position: relative;
+
+}
+.footerLinks p{
+    font-weight: bold;
+}
+.footerLinks i{
+    color: white;
+    font-size: larger;
+}
+.footerData{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.footerData .li{
+    list-style: none;
+    position: relative;
+    top:0;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    /* margin-left: 1rem; */
+}
+.terms li{
+    list-style: none;
+    /* margin: 0.5rem; */
+    cursor: pointer;
+    font-size: small;
+    margin: 0 0.5rem 0 0;
+
+}
+@media screen and (max-width:1080px){
+
+    .terms li{
+        display: block;
+
+    }
+    .footerData{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      left: 0;
+      margin: 0;
+      vertical-align: middle;
+      align-content: center;
+      text-align: center;
+
+  }
+  .li{
+    margin-left: 0rem;
+}
+}
+@media screen and (max-width:930px) {
+    .footer{
+        font-size: small;
+        width: 100%;
+    }
+    .fab{
+        font-size: 60%;
+
+    }
+    .footerLinks li{
+        display: inline-block;
+        /* margin: 0rem 0.4rem 1.4rem 1.4rem; */
+        font-size:small;
+
+
+    }
+    .terms {
+        display: block;
+    }
+    .terms li{
+        display: inline-block;
+    }
+    /* .ico{
+        font-size: small;
+    } */
+    .footerData{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0;
+        margin: 0;
+    }
+    .footerData h5{
+        font-size: medium;
+
+    }
+
+    /* .respo{
+        width:80%
+    } */
+}
+@media screen and (max-width:780px) {
+  .footerLinks li{
+    margin:0 0 0.4 0.3;
+    /* margin-left: 0.3rem; */
+  }
+}
+@media (orientation:portrait){
+    .footer{
+        display: block;
+        width: 100%;
+    }
+     .li{
+         display: flex;
+         justify-content: center;
+         position: relative;
+         padding-top: 1rem;
+         padding-bottom: 1rem;
+         /* background-color: #243A73; */
+         width: 100%;
+         left: 0;
+        /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+         }
+     .li li{
+         list-style: none;
+         padding: 5px;
+         color: white;
+     }
+     .footerData{
+         width: 100%;
+         display: block;
+         justify-content: center;
+     }
+     .footerData .li{
+         float: none;
+     }
+     .footerLinks{
+         display: block;
+         text-align: center;
+         left:0;
+         margin: 0;
+     }
+     .terms{
+        display: flex;
+        justify-content: center;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+    .terms li{
+
+        margin: 0 0rem 0 0;
+
+    }
+    .position{
+        width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li{
+        margin-left: 0rem;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .respo{
+        width: 100%;
+    }
+    .ico{
+       top:0.1rem;
+    }
+}
+/* @media (orientation:portrait){
+    .li{
+        display: grid;
+        margin: 0;
+        justify-items: center;
+        align-items: center;
+    }
+    .position{
+        text-align: center;
+    }
+    .footerLinks{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .terms{
+        display: block;
+        position: relative;
+        left:35%;
+    }
+} */

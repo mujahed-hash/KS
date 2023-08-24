@@ -1,0 +1,45 @@
+.terms{
+    display: grid;
+    
+}
+.terms-data{
+    width: 80%;
+    position: relative;
+    left:6rem;
+    margin-top: 4rem;
+    
+}
+.directives p{
+    display: inline-block;
+    margin: 1rem;
+}
+.directives p:hover{
+    text-decoration: underline red;
+}
+.terms li{
+    width: 70%;
+    position: relative;
+    left:10%;
+    margin-bottom: 2%;
+}
+.terms h6{
+    color:red;
+}
+.big{
+    color: red;
+    font-size: large;
+}
+
+@media (orientation:portrait){
+    .terms-data{
+      width: 85%;
+        left: 1rem;
+        
+    } 
+    .terms li{
+        width: 90%;
+        position: relative;
+        left:10%;
+        margin-bottom: 2%;
+    }
+}

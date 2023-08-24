@@ -1,0 +1,37 @@
+.directives p{
+    display: inline-block;
+    margin: 1rem;
+}
+.privacy{
+    display: grid;
+}
+.privacy-data{
+    width: 80%;
+    position: relative;
+    left: 6rem;
+    margin-top: 3rem;
+    
+}
+.privacy li{
+    width: 70%;
+    position: relative;
+    left:10%;
+    margin-bottom: 2%;
+}
+.head{
+    color:#243A73;
+}
+
+@media (orientation:portrait){
+    .privacy-data{
+      width: 85%;
+        left: 1rem;
+        
+    } 
+    .privacy li{
+        width: 90%;
+        position: relative;
+        left:10%;
+        margin-bottom: 2%;
+    }
+}

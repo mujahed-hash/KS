@@ -1,0 +1,213 @@
+.software .img1{
+    width: 23rem;
+    position: absolute;
+    float: right;
+    background-color: black;
+    /* bottom: 2rem; */
+    right: 5rem;
+    top: 5rem;
+}
+.software .img2{
+    width: 20rem;
+    height: 18rem;
+    position: relative;
+    float: left;
+    bottom: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+.contract{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 5rem;
+}
+.conData{
+    width: 90%;
+   text-align: left;
+   position: relative;
+   top:1rem
+}
+.ms{
+    position: relative;
+    padding: 4rem 0 0rem 0rem;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+.servicesText{
+    width: 80%; 
+    text-align: left; display: flex; justify-content: flex-start; 
+    margin-right: 2rem;
+}
+.servicesText p{
+    width: 80%;
+    margin-right: 2rem;
+
+  }
+  .software h2{
+      background-color: #243A73;
+      color: white;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border-radius: 5px;
+      width: max-content;
+      margin-bottom: 2rem;
+      }
+      .StaffData{
+          display: flex;
+          width: 100%;
+      }
+.software{
+    margin-bottom: 3rem;
+    width: 60%;
+}
+
+ @media screen and (max-width:1080px) {
+    /* .software img{
+        max-width: 15rem;
+        position: absolute;
+        float: right;
+        bottom: 4rem;
+
+        right: 3rem;
+    } */
+    .software .img1{
+        width: 15rem;
+        top:11rem;
+    }
+    .software .img2{
+        width: 18rem;
+        top:2rem
+    }
+    .ms{
+        padding: 4rem 0 0rem 1rem;
+        margin-left: 2rem;
+    }
+    .conData{
+        width: 100%;
+       text-align: left;
+       position: relative;
+       top:1rem
+    }
+    .contract h2{
+        position: relative;
+        left: 4rem;
+        right: 0;
+        float: left;
+    }
+
+    
+ }     
+ @media screen and (max-width:670px) {
+
+    .software .img1{
+        /* position: relative; */
+        float: right;
+        margin: 0;
+        padding: 0;
+        right: 2rem;
+    }
+     .software .img2{
+         position: relative;
+         float: left;
+         margin: 0;
+         padding: 0;
+     }
+.conData{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-bottom: 3rem;
+}
+.directData p{
+    width: 90%;
+    position: relative;
+    left: 0rem;
+}
+.ms{
+    margin: 0;
+}
+ }
+@media (orientation:portrait){
+    /* .servicesText{
+        text-align:left;
+    } */
+    .servicesText p{
+      width: 100%;
+      
+    }
+    .servicesText{
+        width: 100%; 
+        margin-right: 0;
+
+    }
+    .ms{
+        position: relative;
+        padding: 2rem 1rem 0rem 0rem;
+        display: grid;
+        justify-items: center
+        /* text-align: center; */
+    }
+    .software{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        place-items: center;
+    }
+    .software h2{
+        left: 0;
+        right: 0;
+    }
+    .contract{
+        left: 0;
+        right: 0;
+       text-align: left;
+       display: flex;
+       justify-content: flex-start;
+    }
+    .software .img1, .software .img2{
+        width: 17rem;
+        position: relative;
+        float: none;
+        margin: 0;
+        margin-bottom: 2rem;
+        right: 0rem;
+        bottom: 0rem;
+        top:0;
+
+        /* background-color: black;
+        bottom: -1rem;
+        right: 5rem; */  
+      }
+
+        .software button{
+            position: relative;
+            display: flex;
+            text-align: center;
+            /* padding: 0; */
+            width: max-content;
+        }
+
+   .software p{
+       width: 90%;
+       
+   }
+   .concen{
+    position: relative;
+    float: none;
+    width: 100%;
+    margin-bottom: 3rem;
+    display: grid;
+    justify-items: center;
+}
+.conData, .directData
+{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.conData{
+    margin-bottom: 1rem;
+}
+}

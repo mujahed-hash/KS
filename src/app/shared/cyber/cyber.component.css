@@ -1,0 +1,28 @@
+.software img{
+    width: 20rem;
+    position: relative;
+    top: -3rem;
+    margin-bottom: -15rem;
+}
+.ms{
+    /* text-align: center;
+    align-items: center; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.servicesText{
+    width: 100%; text-align: center; display: flex; justify-content: center; 
+}
+.servicesText p{
+    width: 50%;
+  }
+@media (orientation:portrait){
+    .servicesText{
+        text-align:left;
+    }
+    .servicesText p{
+      width: 80%;
+      
+    }
+}

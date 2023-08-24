@@ -1,0 +1,181 @@
+.data{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    /* margin-bottom: 3rem; */
+    /* background-color:red; */
+    position: relative;
+    /* top:-3rem; */
+    /* padding-top: 2rem; */
+    padding-top: 2rem;
+    padding-bottom:3.4rem ;
+    border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+    /* opacity: 0.7; */
+    /* background:rgba(255, 255, 255, 0.219);  */
+    background: linear-gradient(0deg, #243a73 0%, #46133f 100%) no-repeat ;
+    /* background-size: 424.26px 424.26px;
+    background-size: 56.57px 56.57px; */
+}
+.data h2{
+     color: rgb(255, 255, 255);
+     padding: 0.25rem 0.7rem 0.25rem 0.7rem;
+      border-radius: 5px;
+
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      animation: animate 3s ease alternate infinite;
+      border-top:3px solid #2eb9cd;
+border-right:3px solid #17e6cc;
+border-bottom:3px solid #21dc6b;
+border-left:3px solid #4ae815;
+
+
+}
+
+ /* h2:before,
+ h2:after{
+   	content: '';
+   	position: absolute;
+   	top: -2px;
+   	left: -2px;
+   	background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+   	background-size: 400% 400%;
+   	width: calc(100% + 6px);
+   	height: calc(100% + 6px);
+   	border-radius: 20px;
+   	z-index: -1;
+    animation: animate 3s ease alternate infinite;
+   } */
+    h2:after{
+   	filter: blur(20px);
+   }
+   @keyframes animate{
+   	0%{
+   		background-position: 0 50%;
+   	}
+   	50%{
+   		background-position: 100% 50%;
+   	}
+   	100%{
+   		background-position: 0% 50%;
+   	}
+   }
+
+.service{
+    display: flex;
+    /* margin-bottom: 1rem; */
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.service span{
+    font-size: 3.8rem;
+}
+.boxes{
+    width: 20rem;
+    margin: 0.5rem;
+}
+mat-card{
+    width:100%;
+    height: 100%;
+    font-size: 90%;
+    color: white;
+  }
+  .card:hover{
+      padding: 1.2rem 1.2rem;
+      transition: 0.3s;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+      box-shadow: rgb(33, 70, 236) 0px 20px 30px -10px;
+
+  }
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+
+  }
+  .card:hover span{
+    color: #e3dfff;
+  }
+  .servcard{
+    margin: 1rem;
+    background:rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* background-image: linear-gradient(45deg, #243A73 25%, #000000 25%, #000000 50%, #243A73 50%, #243A73 75%, #000000 75%, #000000 100%); */
+
+  }
+  .material-icons{
+    color: #ffffff;
+  }
+.data button{
+    background-color: #243A73;
+    color: white;
+}
+  @media screen and (max-width:946px) {
+    .service{
+        display: inline-block;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: medium;
+    }
+    .servcard{
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+  }
+
+  @media (orientation:portrait){
+    .data h2{
+      margin-top: 0.5rem;
+      margin-bottom: -0.5rem;
+    }
+    .service{
+        display: grid;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+.data{
+  padding-top: 0rem;
+
+}
+        .boxes{
+            /* width: 15rem; */
+            margin: 0.5rem ;
+            padding: 0;
+        }
+        .boxes p{
+            width: 100%;
+        }
+        .servcard{
+            margin-bottom: 1rem;
+        }
+        .servcard mat-card{
+          width: 90%;
+
+        }
+        .servcard{
+          display: grid;
+          justify-items: center;
+          text-align: center;
+          align-items: center;
+        }
+        .servcard h3{
+          font-size: medium;
+          position: relative;
+          left:0;
+          right:0;
+           /* width: 80%; */
+        }
+        .servcard p{
+          font-size: small;
+        }
+        .boxes{
+          width: auto;
+          margin: 0;
+      }
+  }

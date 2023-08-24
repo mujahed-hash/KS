@@ -1,0 +1,67 @@
+.position{
+    position:relative;
+    margin:2rem;
+}
+.software{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.software h2{
+    font-size: 3rem;
+    width: max-content;
+    padding: 0.7rem;
+    color: #243A73;
+}
+.software img{
+    width:22rem;
+    height:100%;
+    position: relative;
+    top:6rem;
+}
+.servicesText p{
+    width: 70%;
+}
+.servicesText{
+    display: grid;
+    justify-items: center;
+    text-align: left;
+}
+.imgData{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1080px) {
+    .software h2{
+        font-size: larger;
+    }
+    .imgData{
+        display: grid;
+        justify-items: center;
+    }
+    .imgData img{
+        position: relative;
+        top:-0rem;
+        width: 13rem;
+    }
+}
+@media  (orientation:portrait){
+    .software h2{
+        font-size: 1.5rem;
+    }
+    .software img{
+        width:18rem;
+        margin-bottom:1rem;
+    }
+    .imgData{
+        display: grid;
+        justify-items: center;
+    }
+    .imgData img{
+        width:15rem;
+        height: 13rem;
+    }
+}

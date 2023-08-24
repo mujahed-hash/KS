@@ -1,0 +1,148 @@
+
+<div class="navbar">
+<div class="p-sidebar" style="background-color:black">
+  <!-- <p-button type="text" (click)="display = true" icon="pi pi-menu" label="Show"></p-button> -->
+
+
+<div class="sbar" style="background-color:black">
+  <p-sidebar [(visible)]="display" position="left" [modal]="true"  [autoZIndex]="false" >
+    <div class="bighome2" >
+      <!-- <div class="fix"> -->
+        <div>
+        <li (click)="toHome()" routerLink="/home" >Home</li>
+        <li (click)="toServices()">Expertise</li>
+        <!-- <details>
+          <summary>Staffing Services</summary>
+          <div style="position: relative; left:1rem; top:1rem">
+          <p  routerLink="/aero-space">Aerospace, Aviation & Defense</p>
+          <p routerLink="/architecture-design">Architecture & Design</p>
+          <p routerLink="/banking">Banking</p>
+          <p routerLink="/construction">Construction</p>
+          <p routerLink="/engineering">Engineering</p>
+          <p routerLink="/finance-accounting">Finance and Accounting</p>
+          <p routerLink="/food-industry">Food and Inddustry</p>
+          <p routerLink="/healthcare-medical">Healthcare & Medical</p>
+          <p routerLink="/human-resources">Human resources</p>
+          <p routerLink="/information-technology">Information Technology</p>
+          <p routerLink="/legal">Legal </p>
+          <p routerLink="/mining-minerals">Mining & Minerals</p>
+          <p routerLink="/oil-gas">Oil & Gas</p>
+          <p routerLink="/science">Science</p>
+          <p routerLink="/supply-chain">Supplychain & Logistics</p>
+          </div>
+        </details> -->
+
+        <!-- <br> -->
+        <li (click)="toWhy()">About?</li>
+        <li (click)="toContact()">Contact Us</li>
+
+      </div>
+    </div>
+</p-sidebar>
+</div>
+
+
+</div>
+
+    <!-- <div class="li">
+      <div>
+        <li class="mel"> <span  class="material-icons ico">mail</span>hr@ksitsolutions.in</li> <span class="pipe"> |</span>
+        <li class="number"> <span  class="material-icons ico "> phone</span>India : +91-868-646-5762 </li> <span class="pipe" > |</span>
+        <li class="number"> <span  class="material-icons ico"> phone</span>USA : +1-417-272-7510</li><span class="pipe"> |</span>
+        <li class="link"> <a href="https://www.facebook.com/profile.php?id=100087286646966"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="link"><a href="https://instagram.com/ksitsolutions?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a></li>
+        <li class="link"><a href="https://www.linkedin.com/company/ksit-solutions"><i class="fab fa-linkedin"></i> </a></li>
+        <li class="link"><a href="https://twitter.com/KSITSolutions"><i class="fab fa-twitter"></i></a></li>
+      </div>
+
+    </div> -->
+
+
+
+
+
+    <div>
+        <img routerLink="/home" src="../../assets/clogo.PNG" alt="">
+
+
+        <div class="some">
+            <div class="bighome" >
+
+
+              <div class="navdata"  >
+
+                <div>
+                  <p class="p" (click)="toHome()"  routerLink="/home">Home  <span  style="margin-left: 0.4rem;">|</span></p>
+                </div>
+                <div class="dropdown">
+                  <span class="p" (click)="toServices()" routerLink="/home">Expertise <span  style="margin-left: 0.4rem;">|</span> </span>
+
+                  <!-- <div class="dropdown-content">
+                  <p (click)="toServices()" routerLink="/home">Direct Hire</p>
+                  <p (click)="toServices()">Contract Hire</p>
+                </div> -->
+                </div>
+
+                <!-- <div class="dropdown2">
+                  <span class="p" routerLink="/home">Staffing Services <span  style="margin-left: 0.4rem;">|</span> </span>
+
+                  <div class="dropdown-content2 position">
+                    <div class="ddata one">
+                  <p  routerLink="/aero-space">Aerospace, Aviation & Defense</p>
+                  <p routerLink="/architecture-design">Architecture & Design</p>
+                  <p routerLink="/banking">Banking</p>
+                  <p routerLink="/construction">Construction</p>
+                  <p routerLink="/engineering">Engineering</p>
+                  </div>
+                  <div class="ddata two">
+                    <p routerLink="/finance-accounting">Finance and Accounting</p>
+                    <p routerLink="/food-industry">Food and Inddustry</p>
+                    <p routerLink="/healthcare-medical">Healthcare & Medical</p>
+                    <p routerLink="/human-resources">Human resources</p>
+                    <p routerLink="/information-technology">Information Technology</p>
+                  </div>
+                  <div class="ddata">
+                    <p routerLink="/legal">Legal </p>
+                    <p routerLink="/mining-minerals">Mining & Minerals</p>
+                    <p routerLink="/oil-gas">Oil & Gas</p>
+                    <p routerLink="/science">Science</p>
+                    <p routerLink="/supply-chain">Supplychain & Logistics</p>
+                  </div>
+                </div>
+
+                </div> -->
+                <!-- <div class="dropdown">
+                  <span class="p">Latest Jobs</span>
+
+                  <div class="dropdown-content">
+                  <p>Direct Hire</p>
+                  <p>Contract Hire</p>
+                </div>
+
+                </div> -->
+
+                <div>
+                  <p class="p" (click)="toWhy()" routerLink="/home">About <span  style="margin-left: 0.4rem;">|</span> </p>
+                </div>
+
+                <div>
+                  <p class="p" (click)="toContact()" routerLink="/home">Contact Us</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+         <div class="newnav">
+
+         </div>
+    </div>
+    <div  class="sidemenu"style="width: 100; float:right;">
+      <p style="float: right;"(click)="display = true" class="material-icons meno">menu</p>
+    </div>
+
+    <div class="list">
+      <li>Direct Hire</li>
+      <li>Contract Hire</li>
+    </div>
+</div>

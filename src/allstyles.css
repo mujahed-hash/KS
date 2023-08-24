@@ -1,0 +1,160 @@
+h6{
+    color: #243A73;
+}
+.aero-space{
+    padding-left: 2rem;
+}
+.aero-head{
+    background-color: #EFEFEF;
+}
+.a-h-data{
+    padding: 2rem;
+}
+.a-h-data h2, .aero h3, .a-l-data h6{
+    color:#243A73;
+}
+.a-h-data p {
+    font-weight: bold;
+}
+.aero{
+    position: relative;
+    top:4rem;
+    display: flex;
+    padding-left: 1rem;
+    margin-bottom: 5rem;
+}
+.aero-p{
+  padding-left: 0rem;
+  width: 60%;
+  display: start;
+  margin-right: 7rem;
+}
+.aero-p p{
+    float: left;
+
+}
+.aero img{
+    width:20rem;
+    height: 7rem;
+    margin: 0;
+    position: relative;
+    top: 5rem;
+}
+.aero-list{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+    /* justify-content: center; */
+}
+.a-l-data{
+    width: 40%;
+   position: relative;
+   left: 2rem;
+}
+.a-l-data li{
+    list-style:circle;
+    
+}
+.aero-last h6{
+   width: 95%;
+   font-size: larger;
+   position: relative;
+   left: 1rem;
+   margin-bottom: 2rem;
+}
+.e-data{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.directory{
+    float: right;
+    position: relative;
+    margin-top: -7rem;
+    margin-right: 3rem;
+}
+.position-1{
+   font-weight: bold;
+    position: relative; 
+    left:2rem
+}
+/* //fixes / */
+.it-h6{
+    position: relative; left:1rem
+}
+.bigP{
+    width:90%; position: relative; left:1rem; 
+}
+@media (orientation:portrait){
+    .directory{
+        font-size: small;
+        margin-top: -2rem;
+        margin-right: 1rem;
+    }
+    .aero-space{
+        width: 100%;
+        padding-left: 1.3rem;
+
+    }
+ 
+    .aero{
+        position: relative;
+        top:4rem;
+        display: block;
+        padding-left: 0rem;
+        margin-bottom: 0rem;
+        width: 100%;
+    }
+    .aero-p{
+        width:90%;
+        margin-bottom: 0;
+    }
+    .aero img{
+        width:20rem;
+        height: 7rem;
+        margin: 0;
+        position: relative;
+        top: 0rem;
+        margin-bottom: 5.6rem;
+
+    }
+    .aero-list{
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 3rem;
+        margin-top: 15rem;
+        /* justify-content: center; */
+    }
+    .a-l-data{
+        width: 90%;
+       position: relative;
+       display:inline-block;
+      
+       left: 0rem;
+       font-size: small;
+       margin-bottom: 1rem;
+       margin-right: 1rem;
+
+    }
+    .aero-last h6{
+       font-size: medium;
+        left: 0rem;
+     }
+     .position{
+         left:0rem
+     }
+     .position-1{
+         left:0;
+         width: 98%;
+     }
+     .bigP{
+        width:100%; position: relative; left:0rem; 
+    }
+    .it-h6{
+        width: 95%;
+       left:0rem
+    }
+    .oil{
+        margin-bottom: 24rem;
+    }
+}
